@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Seekx2y\MeishiSDK;
+namespace Xiaofei\MeishiSDK;
 
 use Hanson\Foundation\AbstractAPI;
 
