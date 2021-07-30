@@ -1,0 +1,29 @@
+{
+    "name": "xf/meishi-sdk",
+    "description": "Meishi SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xf",
+            "email": "xf@test.test"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpcov": "~4.0|~5.0|~6.0",
+        "phpunit/phpunit": "~5.7.14|~6.1|~7.0|~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seekx2y\\WeiniSDK\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Seekx2y\\Tests\\": "tests/"
+        }
+    }
+}
